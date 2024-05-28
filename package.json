@@ -1,0 +1,11 @@
+{
+  "homepage": "tic-tac-toe",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "mkdir -p dist && cp -r *.html *.js *.css dist"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
